@@ -1,21 +1,21 @@
 package com.raisetech.namemanagement.controller;
 
-import com.raisetech.namemanagement.entity.Name;
+import com.raisetech.namemanagement.entity.HouseholdAccount;
 
-public class NameResponse {
+public class HouseholdAccountResponse {
 
   private int id;
 
   private String name;
 
-  public NameResponse(int id, String name) {
+  public HouseholdAccountResponse(int id, String name) {
     this.id = id;
     this.name = name;
   }
 
-  public NameResponse(Name name) {
-    this.id = name.getId();
-    this.name = name.getName();
+  public HouseholdAccountResponse(HouseholdAccount householdAccount) {
+    this.id = householdAccount.getId();
+    this.name = householdAccount.getName();
   }
 
   public int getId() {

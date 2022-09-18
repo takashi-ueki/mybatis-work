@@ -1,15 +1,15 @@
 package com.raisetech.namemanagement.service;
 
-import com.raisetech.namemanagement.entity.Name;
+import com.raisetech.namemanagement.entity.HouseholdAccount;
 
 import java.util.List;
 
-public interface NameService {
+public interface HouseholdAccountService {
 
-  List<Name> findAll();
+  List<HouseholdAccount> findAll();
 
   // idに指定した名前が存在しない場合に例外をthrowします
-  Name findById(int id) throws Exception;
+  HouseholdAccount findById(int id) throws Exception;
 
   void create(String name);
 

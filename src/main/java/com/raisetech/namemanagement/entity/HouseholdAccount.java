@@ -1,12 +1,12 @@
 package com.raisetech.namemanagement.entity;
 
-public class Name {
+public class HouseholdAccount {
 
   private int id;
 
   private String name;
 
-  public Name(int id, String name) {
+  public HouseholdAccount(int id, String name) {
     this.id = id;
     this.name = name;
   }
